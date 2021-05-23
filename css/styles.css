@@ -13,8 +13,8 @@ body {
 /* HEADER */
 
 .header {
-    background: #ca4172;
-    color: #fff;
+    background: #3299bb;
+    color: #E9E9E9;
     padding: 1rem 0;
     position: fixed;
     left: 0;
@@ -24,7 +24,7 @@ body {
 }
 
 .header a {
-    color: #fff;
+    color: #E9E9E9;
     text-decoration: none;
 }
 
@@ -70,7 +70,7 @@ body {
 }
 
 .navigation ul li a:hover {
-    background: #8c50f1;
+    background: #424242;
 }
 
 
@@ -80,7 +80,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #8c50f1;
+    background-color: #424242;
     padding-top: 4rem;
     margin: 0;
 }
@@ -94,12 +94,12 @@ body {
 
 .content-info {
     margin-top: 5em;
-    color: #fff;
+    color: #E9E9E9;
 }
 
 button {
     cursor: pointer;
-    color: #fff;
+    color: #E9E9E9;
     box-shadow: 0px 3px 14px -8px rgba(0, 0, 0, 0.78);
 }
 
@@ -109,7 +109,7 @@ button:hover {
 
 .btn-toBuy,
 .read-more {
-    background-color: #ca4172;
+    background-color: #3299bb;
     padding: 8px 40px;
     font-size: 1.2em;
     border-radius: 20px;
@@ -118,13 +118,13 @@ button:hover {
 
 .read-more {
     background: none;
-    border: 1px solid #fff;
+    border: 1px solid #E9E9E9;
     margin: 20px;
 }
 
 .read-more a {
     text-decoration: none;
-    color: #fff;
+    color: #E9E9E9;
 }
 
 .main img {
@@ -146,7 +146,7 @@ button:hover {
 }
 
 .about .divider {
-    background-color: #ca4172;
+    background-color: #3299bb;
     width: 50px;
     height: 3px;
     margin: 0 auto;
@@ -197,7 +197,7 @@ button:hover {
 }
 
 .products .divider {
-    background-color: #ca4172;
+    background-color: #3299bb;
     width: 50px;
     height: 3px;
     margin: 0 auto;
@@ -240,9 +240,9 @@ button:hover {
 }
 
 .content-price .new-price {
-    background-color: #ca4172;
+    background-color: #3299bb;
     padding: 5px 10px;
-    color: #fff;
+    color: #E9E9E9;
 }
 
 .content-price {
@@ -281,8 +281,8 @@ article {
 /* SUPPORT SECTION */
 
 .support {
-    background-color: #ca4172;
-    color: #fff;
+    background-color: #3299bb;
+    color: #E9E9E9;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -341,8 +341,8 @@ article {
 /* FOOTER SECTION */
 
 .footer {
-    background-color: #8c50f1;
-    color: #fff;
+    background-color: #424242;
+    color: #E9E9E9;
     padding: 30px;
     display: flex;
     justify-content: space-around;
@@ -350,7 +350,7 @@ article {
 }
 
 .footer a {
-    color: #fff;
+    color: #E9E9E9;
     text-decoration: none;
 }
 
@@ -364,7 +364,7 @@ article {
 }
 
 .footer .social-network .fab:hover {
-    color: #f7b733;
+    color: #FF9900;
 }
 
 .footer ul li a {
@@ -375,7 +375,7 @@ article {
 }
 
 .footer ul li a:hover {
-    background: #f7b733;
+    background: #FF9900;
     padding: 5px;
 }
 
@@ -396,7 +396,7 @@ textarea {
 }
 
 .btn-formulario {
-    background-color: #ca4172;
+    background-color: #3299bb;
     padding: 4px 20px;
     font-size: 1em;
     border-radius: 20px;
@@ -404,14 +404,14 @@ textarea {
 }
 
 .field {
-    border: solid 1px #ccc;
+    border: solid 1px #E9E9E9;
     padding: 5px;
     width: 300px;
     /* width: 300px !important; */
 }
 
 .field:focus {
-    border-color: #ca4172;
+    border-color: #3299bb;
 }
 
 
@@ -424,13 +424,13 @@ textarea {
     /* Texto en mayusculas */
     font-weight: bold;
     /* Fuente en negrita o bold */
-    color: #ffffff;
+    color: #E9E9E9;
     /* Color del texto */
     border-radius: 5px;
     /* Borde del boton */
     letter-spacing: 2px;
     /* Espacio entre letras */
-    background-color: #E91E63;
+    background-color: #3299bb;
     /* Color de fondo */
     padding: 10px 15px;
     /* Relleno del boton */
