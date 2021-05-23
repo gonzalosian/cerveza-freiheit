@@ -1,9 +1,101 @@
-@media only screen and (max-width: 600px) {
-    /* .navigation ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
+@media screen and (min-width: 601px) and (max-width: 720px) {
+    .logo-nav-container {
+        margin-bottom: -15px !important;
+    }
+    .menu-icon {
+        display: block !important;
+        /* display: block; */
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+    }
+    .navigation {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .navigation ul {
+        display: none;
+    }
+    .navigation ul.show {
+        display: block;
+    }
+    .container .navigation ul li {
+        /* .navigation ul li { */
+        /* display: block !important; */
+        display: block;
+    }
+    .navigation ul li a {
+        display: block;
+        padding: 0.5rem 0;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    .navigation ul li a:hover {
+        background: #8c50f1;
+    }
+    .about .about-content img {
+        width: 200px;
+    }
+    /* Tamaños de letras */
+    /* .logo {
+        font-size: 1.9em !important;
+    }
+    .logo span {
+        font-size: 1.9em !important;
+    }
+    .btn-toBuy,
+    .read-more {
+        font-size: 1.7em !important;
+    }
+    .about h2 {
+        font-size: 2.5em !important;
+    }
+    .about-info p {
+        font-size: 1.5em;
+    }
+    .products h2 {
+        font-size: 2.5em !important;
+    }
+    .support h2 {
+        font-size: 3.5em !important;
+    }
+    .banner h2 {
+        font-size: 3em !important;
+    }
+    .footer .social-network .fab {
+        font-size: 2.3em !important;
+    }
+    .btn-formulario {
+        font-size: 1.5em !important;
     } */
+    .brand {
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+    .brand .formulario .mb-3 {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        font-size: 1.0em !important;
+    }
+    /* Evito el uso del !important con el origen */
+    .formulario .mb-3 {
+        display: block;
+    }
+    .formulario .field {
+        width: 300px;
+    }
+    /* .logo-main {
+        margin-top: 4em !important;
+        margin-bottom: 3em !important;
+    } */
+    /* Evito el uso del !important con un id */
+    #logo-main {
+        margin-top: 4em;
+        margin-bottom: 3em;
+    }
     .logo-nav-container {
         margin-bottom: -15px !important;
     }
@@ -11,9 +103,6 @@
         display: block !important;
         cursor: pointer;
         padding: 0.5rem 1rem;
-        /* adicionales */
-        /* font-size: 2em;
-        color: #fff; */
     }
     .navigation {
         width: 100%;
@@ -26,7 +115,6 @@
         display: block;
     }
     .navigation ul li {
-        /* display: inline-block; */
         display: block !important;
     }
     .navigation ul li a {
@@ -38,38 +126,6 @@
     .navigation ul li a:hover {
         background: #8c50f1;
     }
-    /* .hero {
-        overflow-x: hidden;
-    }
-    .navigation {
-        background-color: #554845;
-        height: 80px;
-        box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, .42);
-        align-items: center;
-    }
-    .navigation .menu {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        height: 45vh;
-        left: -1em;
-        transform: translateY(-120%);
-        transition: all 1.4s;
-        z-index: 1;
-    }
-    .navigation .menu-icon {
-        display: block;
-        font-size: 2em;
-        color: #fff;
-        cursor: pointer;
-    }
-    .navigation .menu-toggle {
-        transform: translateY(0%);
-    }
-    .menu li {
-        margin-top: 1.5em;
-    } */
     /* MAIN SECTION */
     .main {
         display: flex;
@@ -79,7 +135,6 @@
         width: 100%;
         text-align: center;
         height: 70vh;
-        /* margin-top: 1rem; */
         padding-top: 2rem !important;
         margin-bottom: 10rem;
     }
@@ -110,7 +165,6 @@
     }
     .about img {
         width: 150px !important;
-        /* margin-top: 3em; */
     }
     /* SUPPORT SECTION */
     .support {
@@ -138,7 +192,6 @@
         margin: 1rem 1rem !important;
     }
     .banner .secundary-info {
-        /* display: none; */
         margin: 1rem 1rem !important;
     }
     /* FOOTER SECTION */
@@ -148,27 +201,13 @@
     .footer li {
         margin-top: 20px;
     }
-    /* .footer .menu li {
-        margin-top: 20px;
-    } */
     .footer .quicklinks {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
-    /* .footer .quicklinks .menu {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    } */
     .footer .social-network {
         margin: 2em;
     }
-    /* .footer h3 {
-        font-weight: lighter;
-        margin-top: 1em;
-        color: #f7b733;
-    } */
 }
